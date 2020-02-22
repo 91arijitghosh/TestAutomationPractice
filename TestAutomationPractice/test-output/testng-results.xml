@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27842" started-at="2020-02-22T10:26:26Z" finished-at="2020-02-22T10:26:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27842" started-at="2020-02-22T10:26:26Z" finished-at="2020-02-22T10:26:54Z">
+      <class name="testCases.SearchDress">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testCases.SearchDress@598067a5]" name="launch" is-config="true" duration-ms="19280" started-at="2020-02-22T10:26:26Z" finished-at="2020-02-22T10:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="searchDress()[pri:0, instance:testCases.SearchDress@598067a5]" name="searchDress" duration-ms="8499" started-at="2020-02-22T10:26:46Z" finished-at="2020-02-22T10:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDress -->
+        <test-method status="PASS" signature="Logging(org.testng.ITestResult)[pri:0, instance:testCases.SearchDress@598067a5]" name="Logging" is-config="true" duration-ms="16" started-at="2020-02-22T10:26:54Z" finished-at="2020-02-22T10:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchDress status=SUCCESS method=SearchDress.searchDress()[pri:0, instance:testCases.SearchDress@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logging -->
+      </class> <!-- testCases.SearchDress -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
