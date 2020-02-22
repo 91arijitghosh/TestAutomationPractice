@@ -42,8 +42,8 @@ public class Test_Base
 			    driver = new FirefoxDriver(); 
 		   }
 	    driver.manage().window().maximize();
-	    driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-	    driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	    driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+	    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	    driver.get(URL);
 	    
 	    htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+prop.getProperty("ReportPath"));
